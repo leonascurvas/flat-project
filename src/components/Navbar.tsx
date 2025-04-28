@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div>
 
-      <nav className="bg-black dark:bg-gray-800 p-4 shadow">
+      <nav className="bg-black p-4 shadow">
         <div className="container mx-auto flex justify-between items-center">
           <div className="flex items-center gap-2 w-30">
             <img src="assets/logo-flat-sem-fundo.svg" alt="Logo Flat" />
