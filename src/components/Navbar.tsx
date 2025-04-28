@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
@@ -12,15 +13,15 @@ function Navbar() {
 
 
           <div className="flex-grow hidden md:flex justify-end space-x-8 text-xl">
-            <a href="/" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Home</a>
-            <a href="/about" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Sobre</a>
-            <a href="/services" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Quem Somos</a>
-            <a href="/contact" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contato</a>
+            <Link href="/" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Home</Link>
+            <Link href="/about" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Sobre</Link>
+            <Link href="/services" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Quem Somos</Link>
+            <Link href="/contact" className="text-gray-50 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contato</Link>
           </div>
 
 {/* 
           <div className="hidden md:block">
-            <a href="/login" className="text-white bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-600 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-400">Saiba Mais</a>
+            <Link href="/login" className="text-white bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-600 px-4 py-2 rounded focus:outline-none focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-400">Saiba Mais</Link>
           </div>
 */}
 
@@ -33,11 +34,11 @@ function Navbar() {
             </label>
             <div id="menu-2" className="hidden">
               <div className="flex flex-col space-y-4 mt-2 bg-white dark:bg-gray-800 p-4 rounded-md">
-                <a href="/" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Home</a>
-                <a href="/about" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">About</a>
-                <a href="/services" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Services</a>
-                <a href="/contact" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contact</a>
-                <a href="/login" className="text-white bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-600 px-4 py-2 rounded">Login</a>
+                <Link href="/" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Home</Link>
+                <Link href="/about" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">About</Link>
+                <Link href="/services" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Services</Link>
+                <Link href="/contact" className="text-gray-800 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400">Contact</Link>
+                <Link href="/login" className="text-white bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-600 px-4 py-2 rounded">Login</Link>
               </div>
             </div>
           </div>
