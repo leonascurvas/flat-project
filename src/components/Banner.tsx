@@ -29,7 +29,7 @@ function Banner () {
                   <li>
                     <Link
                       href="/#"
-                      className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-[#464646] hover:text-primary dark:text-white"
+                      className="inline-flex items-center justify-center px-5 py-3 text-center text-base font-medium text-[#464646] hover:text-primary"
                     >
                       <span className="mr-2">
                         <svg
